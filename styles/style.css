@@ -9,13 +9,12 @@
 }
 
 .header-bar{
+    padding: 15px 0;
     background-color: aqua;
-    border: 10px solid orange;
     display: flex;
     justify-content: center;
 }
 .container-section-1{
-    border: 10px solid blue;
     display: flex;
     justify-content: space-between;
     background-color: bisque;
@@ -63,7 +62,6 @@
 }
 
 
-
 .second-section{
     padding: 25px 0;
 }
@@ -87,5 +85,33 @@
     padding: 25px 0;
 }
 
+.fourth-section{
+    background-color: grey;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+.green-square{
+    background-color: green;
+    height: 800px;
+    width: 100%;
+}
 
+.footer-bg{
+    background-color: black;
+    padding: 0 25px;
+}
+
+.salmon-square{
+    background-color: salmon;
+    height: 250px;
+    width: 400px;
+}
+
+.aqua-square{
+    background-color: aqua;
+    height: 250px;
+    width: 100px;
+    border: dotted white;
+}
 
