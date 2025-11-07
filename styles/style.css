@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header-bar{
+    background-color: aqua;
+    border: 10px solid orange;
+    display: flex;
+    justify-content: center;
+}
+.container-section-1{
+    border: 10px solid blue;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 60%;
+}
+
+.logo{
+    border: dotted black;
+    width: 25%;
+    text-justify: initial;
+}
+
+.login-button{
+    border: dotted black;
+    width: 25%;
+    text-align: end;
+}
+
+.linkbar{
+    display: flex;
+    border: dotted black;
+    width: 100%;
+    justify-content: center;
+}
