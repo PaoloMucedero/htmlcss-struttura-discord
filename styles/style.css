@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug {
+    height: 250px;
+}
+
 .header-bar{
     background-color: aqua;
     border: 10px solid orange;
@@ -35,3 +40,52 @@
     width: 100%;
     justify-content: center;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: dotted red;
+    display: flex;
+}
+
+.first-section{
+    background-color: blue;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pink-square{
+    background-color: pink;
+    width: 500px;
+    height: 250px;
+    border: dotted red;
+}
+
+
+
+.second-section{
+    padding: 25px 0;
+}
+
+
+.azzurro1{
+    background-color: aqua;
+    width: 70%;
+    height: 250px;
+    border: dotted red;
+}
+.pink1 {
+    background-color: pink;
+    width: 30%;
+    height: 250px;
+    border: dotted red;
+}
+
+.third-section{
+    background-color: grey;
+    padding: 25px 0;
+}
+
+
+
